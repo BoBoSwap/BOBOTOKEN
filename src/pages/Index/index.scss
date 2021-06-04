@@ -1,0 +1,228 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.index {
+    width: 100%;
+    .description {
+        background: #fff;
+        width: 100%;
+        height: 678px;
+        .description-con {
+            position: relative;
+            .girl {
+                width: 434px;
+                height: 678px;
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+            .info {
+                width: 706px;
+                padding-top: 180px;
+                .welcome {
+                    font-size: 16px;
+                    font-family: Arial-BoldMT, Arial;
+                    font-weight: 700;
+                    color: #333333;
+                    line-height: 18px;
+                    margin-bottom: 2px;
+                }
+                .token {
+                    height: 86px;
+                    font-size: 60px;
+                    font-family: NulshockRg-Bold, NulshockRg;
+                    font-weight: bold;
+                    color: #ff2f7a;
+                    line-height: 86px;
+                    letter-spacing: 3px;
+                    margin-bottom: 11px;
+                }
+                .des {
+                    font-size: 16px;
+                    font-family: Arial-BoldMT, Arial;
+                    font-weight: normal;
+                    color: #333333;
+                    line-height: 32px;
+                    margin-bottom: 66px;
+                }
+                .token-tool {
+                    display: flex;
+                    .btn {
+                        width: 170px;
+                        height: 60px;
+                        cursor: pointer;
+                        border-radius: 8px;
+                        text-align: center;
+                        line-height: 60px;
+                        font-size: 16px;
+                        color: #ff2f7a;
+                    }
+                    .live {
+                        background: #ff2f7a;
+                        color: #fff;
+                        margin-right: 20px;
+                    }
+                    .buy {
+                        background: #fff;
+                        border: 1px solid #ff2f7a;
+                        font-weight: 700;
+                        a {
+                            color: #ff2f7a;
+                            text-decoration: none;
+                            &:active {
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .token-info {
+        background: #ffe6ee;
+        width: 100%;
+        height: 825px;
+        padding-top: 40px;
+        .info-data {
+            height: 215px;
+            background: #fffafc;
+            box-shadow: 0px 8px 20px 0px rgba(255, 47, 74, 0.1);
+            border-radius: 24px;
+            border: 1px solid #ff2f7a;
+            display: flex;
+            margin-bottom: 80px;
+            align-items: center;
+            .info-item {
+                flex: 1;
+                display: flex;
+                flex-flow: column;
+                align-items: center;
+                .name {
+                    font-size: 16px;
+                    font-family: Arial-BoldMT, Arial;
+                    font-weight: 700;
+                    color: #333333;
+                    margin-bottom: 16px;
+                }
+                .value {
+                    font-size: 20px;
+                    font-family: Arial-BoldMT, Arial;
+                    font-weight: normal;
+                    color: #ff2f7a;
+                }
+            }
+        }
+        .bottom {
+            position: relative;
+            height: 450px;
+            display: flex;
+            justify-content: space-between;
+            .icon {
+                width: 450px;
+                height: 450px;
+            }
+            .token-advantages {
+                margin-right: 188px;
+                margin-top: 21px;
+                .title {
+                    font-size: 32px;
+                    font-family: Arial-BoldMT, Arial;
+                    font-weight: 700;
+                    color: #ff2f7a;
+                    line-height: 37px;
+                }
+                .token-des {
+                    margin-bottom: 28px;
+                    p {
+                        font-size: 16px;
+                        font-family: Arial-BoldMT, Arial;
+                        font-weight: 600;
+                        color: #333333;
+                        line-height: 32px;
+                        margin-bottom: 16px;
+                    }
+                }
+            }
+        }
+    }
+    .platform {
+        height: 200px;
+        background: #f6f7fb;
+        display: flex;
+        align-items: center;
+        .platform-con {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .item {
+                cursor: pointer;
+                width: 330px;
+                height: 90px;
+            }
+        }
+    }
+    .application {
+        padding: 80px 0;
+        .title {
+            font-size: 32px;
+            font-family: Arial-BoldMT, Arial;
+            font-weight: 700;
+            color: #333333;
+            line-height: 37px;
+            margin-bottom: 80px;
+            text-align: center;
+        }
+        .app-con {
+            display: flex;
+            padding: 0 92px;
+            justify-content: space-between;
+            .app-item {
+                text-align: center;
+                .icon {
+                    width: 100px;
+                    height: 100px;
+                }
+                .num {
+                    font-size: 24px;
+                    font-family: Arial-BoldMT, Arial;
+                    font-weight: normal;
+                    color: #ff2f7a;
+                    margin: 24px 0 16px 0;
+                }
+                .name {
+                    font-size: 16px;
+                    font-family: Arial-BoldMT, Arial;
+                    font-weight: 600;
+                    color: #333333;
+                }
+            }
+        }
+    }
+    .footer {
+        height: 80px;
+        background: #f6f7fb;
+        display: flex;
+        .footer-con {
+            display: flex;
+            justify-content: space-between;
+            .item {
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                .icon {
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 10px;
+                }
+                .name {
+                    font-size: 16px;
+                    font-family: PingFangSC-Semibold, PingFang SC;
+                    font-weight: 600;
+                    color: #999999;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.bobo-header {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    .logo-con {
+        display: flex;
+        align-items: center;
+        .logo {
+            width: 90px;
+            height: 90px;
+            margin-right: 16px;
+        }
+        .logo-name {
+            font-size: 40px;
+            font-family: NulshockRg-Bold, NulshockRg;
+            font-weight: bold;
+            color: #ff2f7a;
+            line-height: 58px;
+            letter-spacing: 2px;
+        }
+    }
+    .menu-con {
+        display: flex;
+        align-items: center;
+        .menu-item {
+            padding: 7px 15px;
+            background: transparent;
+            border-radius: 20px;
+            font-size: 18px;
+            font-weight: 500;
+            color: #828282;
+            cursor: pointer;
+            margin-right: 48px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        .active {
+            background: #ff2f7a !important;
+            color: #fff;
+        }
+    }
+}
